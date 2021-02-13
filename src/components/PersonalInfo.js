@@ -2,12 +2,13 @@ import React from "react";
 import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import RoomIcon from "@material-ui/icons/Room";
+import "../styles/PersonalInfo.css";
 
 function PersonalInfo(props) {
   return (
-    <div className="PersonalInfo">
-      <h1>{props.data.name}</h1>
-      <h3>{props.data.profession}</h3>
+    <div>
+      <h1 className="Name">{props.data.name}</h1>
+      <h3 className="Profession">{props.data.profession}</h3>
       <div className="Phone">
         <PhoneAndroidIcon />
         <p className="Phone__value">{props.data.phone}</p>

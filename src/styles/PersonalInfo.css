@@ -1,0 +1,45 @@
+.PersonalInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-bottom: 1px black solid;
+}
+
+.PersonalInfo .Name {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.PersonalInfo .Profession {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.PersonalInfo .Phone {
+  display: flex;
+  margin-bottom: 20px;
+}
+.PersonalInfo .Phone__value {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.PersonalInfo .Email {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.PersonalInfo .Email__value {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.PersonalInfo .Location {
+  display: flex;
+}
+
+.PersonalInfo .Location__value {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
