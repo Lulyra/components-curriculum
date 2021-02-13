@@ -6,7 +6,9 @@
   grid-template-areas:
     ". PersonalInfo PersonalInfo PersonalInfo SocialInfo ."
     ". Introduction Introduction Introduction Introduction ."
-    ". Graduation Graduation Experience Experience .";
+    ". Graduation Graduation Experience Experience ."
+    ". Graduation Graduation Projects Projects ."
+    ". Idioms Idioms Skills Skills .";
 }
 .PersonalInfo {
   grid-area: PersonalInfo;
@@ -23,4 +25,12 @@
 .Experience {
   grid-area: Experience;
 }
-
+.Projects {
+  grid-area: Projects;
+}
+.Skills {
+  grid-area: Skills;
+}
+.Idioms {
+  grid-area: Idioms;
+}

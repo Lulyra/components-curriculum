@@ -7,6 +7,7 @@ import Experience from "./Experience";
 import Idioms from "./Idioms";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import "../styles/Curriculum.css";
 
 function Curriculum(props) {
   return (
