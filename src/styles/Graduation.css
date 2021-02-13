@@ -1,0 +1,18 @@
+.Graduation .title {
+  display: flex;
+  flex-direction: row;
+}
+
+.Graduation .title h3 {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.Graduation .case {
+  margin-top: 20px;
+}
+
+.Graduation .case h4 {
+  margin: 10px;
+}

@@ -1,14 +1,15 @@
 import React from "react";
 import nextId from "react-id-generator";
 import SchoolIcon from "@material-ui/icons/School";
+import "../styles/Graduation.css";
 
 function Graduation(props) {
   const graduationComponents = props.data.map((formation) => {
     let id = nextId();
     return (
-      <div key={id}>
+      <div key={id} className="case">
         <h4>{formation.typeOfGraduation}</h4>
-        <h4>{formation.university}</h4>
+        <h4 className="university">{formation.university}</h4>
         <h4>
           {formation.startDate} - {formation.endDate}
         </h4>
@@ -19,7 +20,7 @@ function Graduation(props) {
 
   return (
     <div>
-      <div>
+      <div className="title">
         <SchoolIcon />
         <h3>Formação</h3>
       </div>

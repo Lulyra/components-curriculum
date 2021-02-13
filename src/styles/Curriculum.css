@@ -46,3 +46,10 @@
   display: flex;
   border-bottom: 1px black solid;
 }
+
+.Graduation {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
