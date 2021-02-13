@@ -5,6 +5,7 @@ function App() {
   const information = {
     PersonalInfo: {
       name: "Luiz Paulo Oliveira Lyra de Miranda",
+      profession: "Engenheiro de Software",
       phone: "+55 (21) 99404-6890",
       email: "luiz_paulo6@hotmail.com",
       location: "Rio de Janeiro, RJ - Brasil",
@@ -37,10 +38,7 @@ function App() {
     ],
     Idioms: [
       {
-        info: `
-        Intercâmbio Vancouver
-        Canadá - 2013
-        `,
+        info: `Intercâmbio Vancouver Canadá - 2013`,
         language: "Inglês",
         level: "Fluente",
       },
