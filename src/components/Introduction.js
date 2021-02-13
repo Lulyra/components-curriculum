@@ -1,9 +1,10 @@
 import React from "react";
+import "../styles/Introduction.css";
 
 function Introduction(props) {
   return (
     <div>
-      <p>{props.data}</p>
+      <p className="Text">{props.data}</p>
     </div>
   );
 }
