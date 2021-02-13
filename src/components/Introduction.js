@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function Introduction(props) {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <div>
+      <p>{props.data}</p>
+    </div>
+  );
 }
 
-export default Introduction
+export default Introduction;
