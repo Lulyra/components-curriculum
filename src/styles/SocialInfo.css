@@ -1,7 +1,9 @@
 .socialInfo__main {
   display: flex;
   flex-direction: column;
-  padding-top: 120px;
+  margin-top: 120px;
+  border-bottom: 1px black solid;
+  padding-left: 20px;
 }
 .socialInfo__main .github {
   display: flex;
