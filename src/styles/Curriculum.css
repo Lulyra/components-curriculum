@@ -8,7 +8,8 @@
     ". Introduction Introduction Introduction Introduction ."
     ". Graduation Graduation Experience Experience ."
     ". Graduation Graduation Projects Projects ."
-    ". Idioms Idioms Skills Skills .";
+    ". Idioms Idioms Skills Skills ."
+    ". . . . . .";
 }
 .PersonalInfo {
   grid-area: PersonalInfo;
@@ -84,7 +85,7 @@
 .title {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .item {

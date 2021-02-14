@@ -9,7 +9,7 @@ function Projects(props) {
     return (
       <div key={id} className="item">
         <p className="item__title">{project.title}</p>
-        <p>{project.technology.join(", ")}</p>
+        <p className="Projects__technology">{project.technology.join(", ")}</p>
       </div>
     );
   });
