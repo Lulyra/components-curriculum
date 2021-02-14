@@ -7,8 +7,8 @@ function Projects(props) {
     let id = nextId();
     return (
       <div key={id}>
-        <h3>{project.title}</h3>
-        <h3>{project.technology.join(", ")}</h3>
+        <p>{project.title}</p>
+        <p>{project.technology.join(", ")}</p>
       </div>
     );
   });
@@ -17,7 +17,7 @@ function Projects(props) {
     <div>
       <div>
         <WorkIcon />
-        <h3>Projetos</h3>
+        <h2>Projetos</h2>
       </div>
       {projects}
     </div>

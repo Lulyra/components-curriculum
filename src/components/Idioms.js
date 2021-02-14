@@ -7,10 +7,10 @@ function Idioms(props) {
     let id = nextId();
     return (
       <div key={id}>
-        <h3>{idiom.info}</h3>
-        <h3>
+        <p>{idiom.info}</p>
+        <p>
           {idiom.language}: {idiom.level}
-        </h3>
+        </p>
       </div>
     );
   });
@@ -19,7 +19,7 @@ function Idioms(props) {
     <div>
       <div>
         <TranslateIcon />
-        <h3>Idiomas</h3>
+        <h2>Idiomas</h2>
       </div>
       {idioms}
     </div>

@@ -8,7 +8,7 @@ function PersonalInfo(props) {
   return (
     <div>
       <h1 className="Name">{props.data.name}</h1>
-      <h3 className="Profession">{props.data.profession}</h3>
+      <h2 className="Profession">{props.data.profession}</h2>
       <div className="Phone">
         <PhoneAndroidIcon />
         <p className="Phone__value">{props.data.phone}</p>
