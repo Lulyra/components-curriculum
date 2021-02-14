@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 1fr 0.5fr 1fr 0.5fr 0.5fr;
+  grid-template-rows: 1fr 0.5fr 1fr 0.5fr 0.5fr 0.3fr;
   gap: 0px 0px;
   grid-template-areas:
     ". PersonalInfo PersonalInfo PersonalInfo SocialInfo ."
@@ -96,4 +96,12 @@
 
 .item p {
   margin-bottom: 5px;
+}
+
+.list {
+  margin-top: 20px;
+  list-style: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }

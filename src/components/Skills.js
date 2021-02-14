@@ -15,7 +15,7 @@ function Skills(props) {
         <DonutLargeIcon />
         <h2>Habilidades</h2>
       </div>
-      <ul>{habilidades}</ul>
+      <ul className="list">{habilidades}</ul>
     </div>
   );
 }
