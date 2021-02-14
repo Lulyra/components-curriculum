@@ -7,8 +7,8 @@ function Projects(props) {
   const projects = props.data.map((project) => {
     let id = nextId();
     return (
-      <div key={id}>
-        <p>{project.title}</p>
+      <div key={id} className="item">
+        <p className="item__title">{project.title}</p>
         <p>{project.technology.join(", ")}</p>
       </div>
     );

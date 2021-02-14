@@ -8,7 +8,7 @@ function Idioms(props) {
     let id = nextId();
     return (
       <div key={id} className="item">
-        <p >{idiom.info}</p>
+        <p className="item__title">{idiom.info}</p>
         <p>
           {idiom.language}: {idiom.level}
         </p>

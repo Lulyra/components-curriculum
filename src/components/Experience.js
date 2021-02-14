@@ -7,8 +7,8 @@ function Experience(props) {
   const experiences = props.data.map((exp) => {
     let id = nextId();
     return (
-      <div key={id}>
-        <p>
+      <div key={id} className="item">
+        <p className="item__title">
           {exp.where} - {exp.year}
         </p>
         <p>{exp.details}</p>
