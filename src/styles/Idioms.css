@@ -1,0 +1,20 @@
+.Idioms .main {
+  display: flex;
+  flex-direction: column;
+}
+.Idioms .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Idioms .item {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.Idioms .item p {
+  margin-bottom: 10px;
+}

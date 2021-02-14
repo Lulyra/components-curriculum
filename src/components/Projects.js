@@ -1,6 +1,7 @@
 import React from "react";
 import nextId from "react-id-generator";
 import WorkIcon from "@material-ui/icons/Work";
+import "../styles/Projects.css";
 
 function Projects(props) {
   const projects = props.data.map((project) => {
@@ -14,8 +15,8 @@ function Projects(props) {
   });
 
   return (
-    <div>
-      <div>
+    <div className="main">
+      <div className="title">
         <WorkIcon />
         <h2>Projetos</h2>
       </div>

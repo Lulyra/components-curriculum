@@ -7,8 +7,8 @@ function Graduation(props) {
   const graduationComponents = props.data.map((formation) => {
     let id = nextId();
     return (
-      <div key={id} className="case">
-        <p>{formation.typeOfGraduation}</p>
+      <div key={id} className="item">
+        <p className="item__title">{formation.typeOfGraduation}</p>
         <p className="university">{formation.university}</p>
         <p>
           {formation.startDate} - {formation.endDate}

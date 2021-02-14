@@ -1,6 +1,7 @@
 import React from "react";
 import nextId from "react-id-generator";
 import DonutLargeIcon from "@material-ui/icons/DonutLarge";
+import "../styles/Skills.css";
 
 function Skills(props) {
   const habilidades = props.data.map((hab) => {
@@ -10,7 +11,7 @@ function Skills(props) {
 
   return (
     <div>
-      <div>
+      <div className="title">
         <DonutLargeIcon />
         <h2>Habilidades</h2>
       </div>

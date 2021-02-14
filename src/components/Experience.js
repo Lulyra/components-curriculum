@@ -1,6 +1,7 @@
 import React from "react";
 import nextId from "react-id-generator";
 import EmojiTransportationIcon from "@material-ui/icons/EmojiTransportation";
+import "../styles/Experience.css";
 
 function Experience(props) {
   const experiences = props.data.map((exp) => {
@@ -16,8 +17,8 @@ function Experience(props) {
   });
 
   return (
-    <div>
-      <div>
+    <div className="main">
+      <div className="title">
         <EmojiTransportationIcon />
         <h2>Experiências</h2>
       </div>

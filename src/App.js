@@ -4,7 +4,7 @@ import Curriculum from "./components/Curriculum";
 function App() {
   const information = {
     PersonalInfo: {
-      name: "Luiz Paulo Oliveira Lyra de Miranda",
+      name: "Luiz Paulo  Oliveira Lyra de Miranda",
       profession: "Engenheiro de Software",
       phone: "+55 (21) 99404-6890",
       email: "luiz_paulo6@hotmail.com",
