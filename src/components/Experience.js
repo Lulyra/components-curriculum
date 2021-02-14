@@ -19,7 +19,7 @@ function Experience(props) {
     <div>
       <div>
         <EmojiTransportationIcon />
-        <h3>Experiências</h3>
+        <h2>Experiências</h2>
       </div>
       {experiences}
     </div>

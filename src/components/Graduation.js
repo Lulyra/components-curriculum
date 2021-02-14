@@ -8,7 +8,7 @@ function Graduation(props) {
     let id = nextId();
     return (
       <div key={id} className="case">
-        <h2>{formation.typeOfGraduation}</h2>
+        <p>{formation.typeOfGraduation}</p>
         <p className="university">{formation.university}</p>
         <p>
           {formation.startDate} - {formation.endDate}
@@ -22,7 +22,7 @@ function Graduation(props) {
     <div>
       <div className="title">
         <SchoolIcon />
-        <h1>Formação</h1>
+        <h2>Formação</h2>
       </div>
       {graduationComponents}
     </div>
