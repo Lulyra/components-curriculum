@@ -7,10 +7,10 @@ function Experience(props) {
     let id = nextId();
     return (
       <div key={id}>
-        <h3>
+        <p>
           {exp.where} - {exp.year}
-        </h3>
-        <h3>{exp.details}</h3>
+        </p>
+        <p>{exp.details}</p>
       </div>
     );
   });
